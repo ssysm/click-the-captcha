@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#captcha{
+  cursor: pointer;
+  max-width: 480px;
+  padding: 5px;
+}
+#captchaText{
+  font-size:1.45rem;
+  text-align: center;
+  display: block;
+}
+#captchaText>svg{
+  vertical-align:middle;
+}
+#captchaImg{
+  display: inline-block;
+}
+#captchaImg>img{
+  height: 100px;
+  width: 110px;
+  opacity: 0.6;
+}

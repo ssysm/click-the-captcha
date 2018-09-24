@@ -1,0 +1,38 @@
+[
+    {
+        "file": "./images/flower1.jpg",
+        "cato": ["flower"]
+    },
+    {
+        "file" : "./images/flower2.jpg",
+        "cato": ["flower"]
+    },
+    {
+        "file": "./images/flower3.jpg",
+        "cato": ["flower"]
+    },
+    {
+        "file" : "./images/flower4.jpg",
+        "cato": ["flower"]
+    },
+    {
+        "file":"./images/forest1.jpg",
+        "cato":["forest"]
+    },
+    {
+        "file":"./images/forest2.jpg",
+        "cato":["forest"]
+    },
+    {
+        "file":"./images/grass1.jpg",
+        "cato":["grass"]
+    },
+    {
+        "file":"./images/grass2.jpg",
+        "cato":["grass"]
+    },
+    {
+        "file":"./images/grass3.jpg",
+        "cato":["grass"]
+    }
+]

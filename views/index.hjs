@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>星之海验证码</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <script src="https://unpkg.com/axios@0.18.0/dist/axios.min.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row card" id="captcha">
+      <div class="col">
+        <span id="captchaText"></span>
+      </div>
+      <br>
+      <div id="captchaImg">
+
+      </div>
+      <div class="row">
+        <div class="col s4">
+          <a class="waves-effect waves-light btn" onclick="refresh()">刷新</a>
+        </div>
+        <div class="col s3 offset-s5">
+          <a class="waves-effect waves-light btn" onclick="handleSubmit()">提交</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="/javascripts/captcha.js"></script>
+
+</html>
